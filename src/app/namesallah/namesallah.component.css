@@ -1,0 +1,19 @@
+.card{
+margin: 80px;
+border-color: blue;
+text-align: center;
+
+}
+.content{
+    font-size: 40px;
+}
+.card-text{
+    font-size: 20px;
+}
+
+h1{
+    color: blue;
+    font-size: 80px;
+    margin: 50px;
+    text-align: center;
+  }

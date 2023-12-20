@@ -1,0 +1,20 @@
+<!-- <p>namesallah works!</p>
+
+<div class="row ml-5"  >
+<div class="card col-3  mx-5 my-3" *ngFor="let item of data">
+  <div class="card-body">
+    <h5 class="card-title">{{item.name}}</h5>
+      
+    <p class="card-text" >{{item.text}}</p>
+    
+
+
+</div>
+</div>
+</div> -->
+<h1>اسماء الله الحسنى </h1>
+
+<mat-card class="card" *ngFor="let item of data">
+    <mat-card-content  class="content">{{item.name}}</mat-card-content>
+    <p class="card-text" >{{item.text}}</p>
+ </mat-card>
